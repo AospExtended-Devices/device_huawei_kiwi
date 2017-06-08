@@ -24,3 +24,6 @@ PRODUCT_NAME := aosp_kiwi
 BOARD_VENDOR := huawei
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
+
+# Build Supersu
+DEFAULT_ROOT_METHOD := supersu
