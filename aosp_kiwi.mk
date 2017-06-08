@@ -17,10 +17,10 @@ $(call inherit-product, device/huawei/kiwi/full_kiwi.mk)
 # Inherit some common AOSP-OMS stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
+#Build Type
+EXTENDED_BUILD_TYPE=OFFICIAL
+
 PRODUCT_NAME := aosp_kiwi
 BOARD_VENDOR := huawei
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
-
-# Build Magisk
-DEFAULT_ROOT_METHOD := magisk
